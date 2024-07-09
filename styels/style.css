@@ -1,5 +1,55 @@
 /* Default Styles */
-*{
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700;900&display=swap");
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* common styles */
+.container {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header and banner related styles */
+header {
+    margin-top: 50px;
+}
+
+.banner {
+    padding: 177px 0;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../assets/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.banner-content {
+    width: 520px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 78px;
 }

@@ -8,6 +8,13 @@
     font-family: "Inter", sans-serif;
 }
 
+.red {
+    color: #F00;
+}
+
+section{
+    margin-bottom: 120px;
+}
 /* common styles */
 .container {
     width: 82%;
@@ -18,6 +25,7 @@
 /* header and banner related styles */
 header {
     margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 .banner {
@@ -52,4 +60,37 @@ header {
     font-size: 60px;
     font-weight: 900;
     line-height: 78px;
+}
+
+/* categories styles */
+.categories {
+    width: 680px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.categories-content h1 {
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.categories-content h5 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.categories-content h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.categories-content img{
+    width: 100%;
 }

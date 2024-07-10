@@ -279,6 +279,7 @@ header {
 .images-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: end;
 }
 
 .right-image-container{
@@ -287,13 +288,37 @@ header {
 
 .right-image-container img:first-child{
     position: absolute;
-    left: 15%;
+    left: -8%;
+    top: -520px;
 }
 
 .right-image-container img:last-child{
     position: absolute;
     z-index: -1;
-    bottom: 40%;
+    bottom: 190px;
     /* height: 400px; */
     right: 0;
 }
+
+/* awesome portfolio section styles */
+.awesome-portfolio .section-content {
+    width: 730px;
+    & .section-sub-title{
+        margin-bottom: 16px;
+    }
+    & .section-title{
+        margin-bottom: 22px;
+    }
+}
+
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+
+    & img{
+        width: 100%;
+    }
+}
+

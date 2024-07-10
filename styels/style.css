@@ -382,7 +382,8 @@ footer {
     padding: 120px 0;
 }
 
-.footer-section p {
+.footer-section p,
+i {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -390,6 +391,11 @@ footer {
     line-height: 40px;
     /* 166.667% */
 }
+
+.footer-section i{
+    margin-right: 16px;
+}
+
 
 .footer-section .social-links {
     justify-content: center;

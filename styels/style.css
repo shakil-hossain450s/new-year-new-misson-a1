@@ -67,7 +67,7 @@ section {
 .section-title {
     color: #070211;
     font-family: Merriweather;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 900;
     text-transform: capitalize;
 }
@@ -208,17 +208,18 @@ header {
 }
 
 /* best deals section styles */
-.best-deals{
+.best-deals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 70px;
 }
 
-.best-deals .section-sub-title{
+.best-deals .section-sub-title {
     margin-bottom: 16px
 }
-.best-deals .section-title{
+
+.best-deals .section-title {
     margin-bottom: 22px
 }
 
@@ -236,63 +237,66 @@ header {
 .coming-soon-another .section-title {
     font-family: "Inter";
 }
+
 .coming-soon-another .section-description {
     margin-bottom: 40px;
 }
 
 /* Holidays Sale section styles */
-.section-heading{
+.section-heading {
     width: 870px;
     margin: 0 auto;
     text-align: center;
 }
 
-.section-heading .section-sub-title{
+.section-heading .section-sub-title {
     margin-bottom: 16px;
 }
-.section-heading .section-title{
-   font-size: 60px;
-   margin-bottom: 28px;
-   & .red{
-    font-family: Merriweather;
-   }
+
+.section-heading .section-title {
+    font-size: 60px;
+    margin-bottom: 28px;
+
+    & .red {
+        font-family: Merriweather;
+    }
 }
 
-.section-heading .section-description{
+.section-heading .section-description {
     color: rgba(7, 2, 17, 0.60);
     margin-bottom: 64px;
 }
 
-.images-container{
+.images-container {
     background-image: url("../assets/rectangle-2.png");
     height: 600px;
     background-repeat: no-repeat;
     background-position: bottom;
     border-radius: 16px 0px 16px 16px;
-   background-size: contain;
+    background-size: contain;
 }
 
-.left-image-container img{
+.left-image-container img {
     width: 100%;
 }
 
-.images-container{
+.images-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: end;
 }
 
-.right-image-container{
-   position: relative;
+.right-image-container {
+    position: relative;
 }
 
-.right-image-container img:first-child{
+.right-image-container img:first-child {
     position: absolute;
     left: -8%;
     top: -520px;
 }
 
-.right-image-container img:last-child{
+.right-image-container img:last-child {
     position: absolute;
     z-index: -1;
     bottom: 190px;
@@ -303,22 +307,61 @@ header {
 /* awesome portfolio section styles */
 .awesome-portfolio .section-content {
     width: 730px;
-    & .section-sub-title{
+
+    & .section-sub-title {
         margin-bottom: 16px;
     }
-    & .section-title{
+
+    & .section-title {
         margin-bottom: 22px;
     }
 }
 
-.image-gallery{
+.image-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-top: 48px;
 
-    & img{
+    & img {
         width: 100%;
     }
 }
 
+
+/* Subscribe Newsletter section styles */
+.subscribe-newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 0;
+}
+
+.subscribe-newsletter img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.subscribe-newsletter .section-title {
+    margin-bottom: 22px;
+}
+
+.subscribe-newsletter .section-sub-title {
+    margin-bottom: 48px;
+}
+
+.subscribe-newsletter input[type="email"] {
+    width: 50%;
+    padding: 15px 30px;
+    border: 0;
+    outline: 0;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.subscribe-newsletter input[type="button"]{
+    border-radius: 0 8px 8px 0;
+    margin-left: -10px;
+    padding: 13.5px 30px;
+}

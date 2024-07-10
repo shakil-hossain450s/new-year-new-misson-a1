@@ -262,3 +262,38 @@ header {
     color: rgba(7, 2, 17, 0.60);
     margin-bottom: 64px;
 }
+
+.images-container{
+    background-image: url("../assets/rectangle-2.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 16px 0px 16px 16px;
+   background-size: contain;
+}
+
+.left-image-container img{
+    width: 100%;
+}
+
+.images-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.right-image-container{
+   position: relative;
+}
+
+.right-image-container img:first-child{
+    position: absolute;
+    left: 15%;
+}
+
+.right-image-container img:last-child{
+    position: absolute;
+    z-index: -1;
+    bottom: 40%;
+    /* height: 400px; */
+    right: 0;
+}

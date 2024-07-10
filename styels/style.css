@@ -8,6 +8,19 @@
     font-family: "Inter", sans-serif;
 }
 
+/* common styles */
+.container {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flex-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .red {
     color: #F00;
 }
@@ -72,11 +85,8 @@ section {
     text-transform: capitalize;
 }
 
-/* common styles */
-.container {
-    width: 82%;
-    max-width: 1440px;
-    margin: 0 auto;
+hr {
+    margin: 50px 0;
 }
 
 /* header and banner related styles */
@@ -360,8 +370,28 @@ header {
     border-radius: 8px;
 }
 
-.subscribe-newsletter input[type="button"]{
+.subscribe-newsletter input[type="button"] {
     border-radius: 0 8px 8px 0;
     margin-left: -10px;
     padding: 13.5px 30px;
+}
+
+/* footer styles */
+footer {
+    background: #070211;
+    padding: 120px 0;
+}
+
+.footer-section p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer-section .social-links {
+    justify-content: center;
+    gap: 24px;
 }

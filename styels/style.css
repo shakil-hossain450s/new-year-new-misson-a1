@@ -12,9 +12,66 @@
     color: #F00;
 }
 
-section{
+section {
     margin-bottom: 120px;
 }
+
+.section-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.white-btn {
+    background-color: #fff;
+    color: #18181a;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.white-btn:hover {
+    background-color: #18181a;
+    color: #fff;
+}
+
+.red-btn {
+    background-color: #f00;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+
+.red-btn:hover {
+    background-color: rgb(226, 5, 5);
+}
+
+.section-sub-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
 /* common styles */
 .container {
     width: 82%;
@@ -76,12 +133,6 @@ header {
     margin-bottom: 48px;
 }
 
-.categories-content h5 {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 16px;
-}
 
 .categories-content h2 {
     color: #070211;
@@ -91,6 +142,101 @@ header {
     margin-bottom: 48px;
 }
 
-.categories-content img{
+.categories-content img {
     width: 100%;
 }
+
+/* midnight-party section styles */
+.midnight-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    padding: 126px 126px 126px 160px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.midnight-party-content {
+    width: 700px;
+}
+
+.midnight-party-content h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.midnight-party-content p {
+    margin-bottom: 18px;
+}
+
+.midnight-party-image img {
+    width: 100%;
+}
+
+/* destination section styles */
+.destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 110px 0;
+    border-radius: 8px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.destination-content h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.destination-content button {
+    margin-top: 48px;
+}
+
+/* best deals section styles */
+.best-deals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 70px;
+}
+
+.best-deals .section-sub-title{
+    margin-bottom: 16px
+}
+.best-deals .section-title{
+    margin-bottom: 22px
+}
+
+.best-deals .section-description {
+    color: rgba(7, 2, 17, 0.60)
+}
+
+.best-deals-image img {
+    width: 100%;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 40px;
+}
+
+.coming-soon-another .section-title {
+    font-family: "Inter";
+}
+.coming-soon-another .section-description {
+    margin-bottom: 40px;
+}
+
